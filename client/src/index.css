@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+@theme {
+  --color-primary: #18181b; /* Zinc 900: Sleek matte black */
+  --color-primary-dull: #27272a; /* Zinc 800: Lighter black for hover effects */
+  --color-light: #f4f4f5; /* Zinc 100: Very soft off-white for backgrounds */
+  --color-borderColor: #e4e4e7; /* Zinc 200: Subtle, clean borders */
+}
