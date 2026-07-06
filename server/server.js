@@ -13,7 +13,13 @@ const app = express()
 await connectDB()
 
 // Middleware
-app.use(cors());
+app.use(cors({
+    origin: [
+        "http://localhost:5173",
+        "https://morningstar-motors.vercel.app"
+    ],
+    credentials: true
+}));
 app.use(express.json());
 
 app.get('/', (req, res)=> res.send("Server is running"))
