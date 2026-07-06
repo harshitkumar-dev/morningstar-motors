@@ -1,6 +1,6 @@
-# CarRental
+# Morningstar Motors
 
-CarRental is a full-stack MERN car rental booking platform that allows users to browse available cars, book vehicles for selected dates, and manage their bookings easily. The platform includes secure authentication, booking management, and a responsive modern UI for a smooth user experience.
+MORNINGSTAR MOTORS is a full-stack MERN car rental booking platform that allows users to browse available cars, book vehicles for selected dates, and manage their bookings easily. The platform includes secure authentication, booking management, and a responsive modern UI for a smooth user experience.
 
 ---
 
@@ -48,7 +48,7 @@ CarRental is a full-stack MERN car rental booking platform that allows users to 
 
 ```bash id="g4w9dr"
 git clone https://github.com/harshitkumar-dev/morningstar-motors
-cd car-rental
+cd MORNINGSTAR MOTORS
 ```
 
 ---
@@ -118,7 +118,7 @@ IMAGEKIT_URL_ENDPOINT=your_imagekit_url_endpoint
 ## 📂 Project Structure
 
 ```bash id="n5r4ut"
-car-rental/
+MORNINGSTAR-MOTORS/
 │
 ├── client/         # Frontend (React + Vite)
 ├── server/         # Backend (Node.js + Express)
